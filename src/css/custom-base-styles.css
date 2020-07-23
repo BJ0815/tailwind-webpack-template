@@ -1,0 +1,11 @@
+.bg-center-cover {
+  @apply bg-center bg-no-repeat bg-cover object-cover;
+}
+
+.inset-center {
+  @apply left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2;
+}
+
+.inset-center-top-35 {
+  @apply left-1/2 top-35 transform -translate-y-1/2 -translate-x-1/2;
+}
